@@ -101,7 +101,7 @@ const INFO = {
 			description: "A Clock😅.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://age-calculator-tau-lemon.vercel.app/",
+			link: "https://wall-clock-nine.vercel.app/",
 		},
 	],
 };
