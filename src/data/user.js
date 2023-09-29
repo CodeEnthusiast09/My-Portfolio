@@ -90,7 +90,7 @@ const INFO = {
 
 		{
 			title: "Age Calculator",
-			description: "An age calculator app.",
+			description: "Not your regular age calculator app.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
 			link: "https://age-calculator-tau-lemon.vercel.app/",
