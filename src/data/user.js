@@ -70,6 +70,15 @@ const INFO = {
 		},
 
 		{
+			title: "To-do App",
+			description:
+				"A sleek ToDo app and intuitive task management application designed to streamline your daily productivity. With a clean and user-friendly interface, ToDo simplifies the process of organizing tasks, making it easier for users to stay focused and accomplish their goals.",
+			logo: "/logo512.png",
+			linkText: "View Project",
+			link: "https://to-do-app-adedapo.vercel.app/",
+		},
+
+		{
 			title: "Drag and Drop Gallery",
 			description:
 				"You will implement a fully functional and responsive image gallery that showcases a collection of images in a visually appealing way. A user should be able to use the Drag-and-Drop feature, they should be able to select and drag images, effortlessly rearranging them within the gallery.",
