@@ -39,8 +39,13 @@
 
 .contact-link{
 	text-decoration: none;
-	background-color: var(--link-color);
+	background-color: var(--quaternary-color);
 	padding: 2px 4px;
 	border-radius: 5px;
-	color: var(--quaternary-color);
+	color: var(--primary-color);
+}
+
+.contact-link:hover{
+
+	background-color: var(--tertiary-color);
 }
