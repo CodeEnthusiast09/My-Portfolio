@@ -65,6 +65,10 @@
 	font-weight: 700;
 }
 
+.project-link-text a {
+	color: var(--secondary-color);
+}
+
 @media (max-width: 600px) {
 	.project {
 		height: 300px;
