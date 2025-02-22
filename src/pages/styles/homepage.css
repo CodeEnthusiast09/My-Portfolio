@@ -96,7 +96,7 @@
 
 @media (max-width: 1024px) {
 	.homepage-first-area {
-		flex-direction: column;
+		flex-direction: row-reverse;
 	}
 
 	.homepage-first-area-left-side {
@@ -147,5 +147,11 @@
 		flex-basis: auto;
 		margin-left: -25px;
 		margin-right: -25px;
+	}
+}
+
+@media (max-width: 600px) {
+	.homepage-first-area {
+		flex-direction: column;
 	}
 }

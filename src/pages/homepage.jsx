@@ -23,6 +23,63 @@ const Homepage = () => {
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
 
+	const numberToWords = (num) => {
+		const ones = [
+			"",
+			"one",
+			"two",
+			"three",
+			"four",
+			"five",
+			"six",
+			"seven",
+			"eight",
+			"nine",
+		];
+		const tens = [
+			"",
+			"",
+			"twenty",
+			"thirty",
+			"forty",
+			"fifty",
+			"sixty",
+			"seventy",
+			"eighty",
+			"ninety",
+		];
+		const teens = [
+			"ten",
+			"eleven",
+			"twelve",
+			"thirteen",
+			"fourteen",
+			"fifteen",
+			"sixteen",
+			"seventeen",
+			"eighteen",
+			"nineteen",
+		];
+
+		if (num === 0) return "zero";
+		if (num < 10) return ones[num];
+		if (num < 20) return teens[num - 10];
+
+		const tensDigit = Math.floor(num / 10);
+		const onesDigit = num % 10;
+
+		return tens[tensDigit] + (onesDigit !== 0 ? "-" + ones[onesDigit] : "");
+	};
+
+	const calculateExperience = () => {
+		const startDate = new Date("2022");
+		const today = new Date();
+		const years = today.getFullYear() - startDate.getFullYear();
+		return numberToWords(years);
+	};
+
+	const yearsOfExperience = calculateExperience();
+
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -91,7 +148,11 @@ const Homepage = () => {
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									Hi👋🏽! I am O'Brien Taiwo, a frontend
+									engineer with {yearsOfExperience} years of
+									experience. I am passionate about building
+									products that meet ideal levels of user
+									satisfaction and business requirements.
 								</div>
 							</div>
 
@@ -103,7 +164,6 @@ const Homepage = () => {
 											alt="about"
 											className="homepage-image"
 										/>
-										
 									</div>
 								</div>
 							</div>

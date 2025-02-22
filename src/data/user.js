@@ -34,14 +34,13 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Aptlearn NFT",
+			title: "FundlyNest",
 			description:
-				"I recently built a mock NFT website, showcasing my skills in web development and blockchain technology integration. It's a dynamic platform that mirrors the excitement of the NFT market.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"FundlyNest is a crowdfunding platform that connects donors with charitable causes. I designed and developed the website, ensuring a seamless user experience and intuitive navigation, and also worked on the backend to implement secure payment processing and data management.",
+			logo: "/logo512.png",
 			linkText: "View Project",
-			link: "https://github-tutorial-for-aptlearners.vercel.app/",
+			link: "https://fundlynest.vercel.app/",
 		},
-
 		{
 			title: "MovieBox",
 			description:
@@ -49,6 +48,31 @@ const INFO = {
 			logo: "/logo512.png",
 			linkText: "View Project",
 			link: "https://movies-box-six.vercel.app/",
+		},
+		{
+			title: "To-do App",
+			description:
+				"A sleek ToDo app and intuitive task management application designed to streamline your daily productivity. With a clean and user-friendly interface, ToDo simplifies the process of organizing tasks, making it easier for users to stay focused and accomplish their goals.",
+			logo: "/logo512.png",
+			linkText: "View Project",
+			link: "https://to-do-app-adedapo.vercel.app/",
+		},
+
+		{
+			title: "Drag and Drop Gallery",
+			description:
+				"A fully functional and responsive Drag-and-Drop image gallery that showcases a collection of images in a visually appealing way.",
+			logo: "/logo512.png",
+			linkText: "View Project",
+			link: "https://dnd-gallery-kappa.vercel.app/",
+		},
+		{
+			title: "Aptlearn NFT",
+			description:
+				"I recently built a mock NFT website, showcasing my skills in web development and blockchain technology integration. It's a dynamic platform that mirrors the excitement of the NFT market.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			linkText: "View Project",
+			link: "https://github-tutorial-for-aptlearners.vercel.app/",
 		},
 
 		{
@@ -67,32 +91,6 @@ const INFO = {
 			logo: "/logo512.png",
 			linkText: "View Project",
 			link: "https://3-scorers.vercel.app/",
-		},
-
-		{
-			title: "To-do App",
-			description:
-				"A sleek ToDo app and intuitive task management application designed to streamline your daily productivity. With a clean and user-friendly interface, ToDo simplifies the process of organizing tasks, making it easier for users to stay focused and accomplish their goals.",
-			logo: "/logo512.png",
-			linkText: "View Project",
-			link: "https://to-do-app-adedapo.vercel.app/",
-		},
-
-		{
-			title: "Drag and Drop Gallery",
-			description:
-				"You will implement a fully functional and responsive image gallery that showcases a collection of images in a visually appealing way. A user should be able to use the Drag-and-Drop feature, they should be able to select and drag images, effortlessly rearranging them within the gallery.",
-			logo: "/logo512.png",
-			linkText: "View Project",
-			link: "https://dnd-gallery-kappa.vercel.app/",
-		},
-		{
-			title: "FundlyNest",
-			description:
-				"FundlyNest is a crowdfunding platform that connects donors with charitable causes. I designed and developed the website, ensuring a seamless user experience and intuitive navigation, and also worked on the backend to implement secure payment processing and data management.",
-			logo: "/logo512.png",
-			linkText: "View Project",
-			link: "https://fundlynest.vercel.app/",
 		},
 	],
 };
