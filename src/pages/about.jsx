@@ -58,11 +58,6 @@ const About = () => {
 											alt="about"
 											className="about-image"
 										/>
-										{/* <img
-											src="about.jpg"
-											alt="about"
-											className="about-image"
-										/> */}
 									</div>
 								</div>
 
