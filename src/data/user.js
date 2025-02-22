@@ -83,15 +83,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://blog-orcin-theta.vercel.app/",
 		},
-
-		{
-			title: "3-Scorers",
-			description:
-				"I developed an impressive React.js application that showcases my expertise in building dynamic and responsive web interfaces, demonstrating my commitment to creating engaging user experiences with cutting-edge technology.",
-			logo: "/logo512.png",
-			linkText: "View Project",
-			link: "https://3-scorers.vercel.app/",
-		},
 	],
 };
 
