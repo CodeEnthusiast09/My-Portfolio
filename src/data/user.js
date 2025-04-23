@@ -42,6 +42,13 @@ const INFO = {
 			link: "https://fundlynest.vercel.app/",
 		},
 		{
+			title: "Vendpal",
+			description: "A simple dashboard",
+			logo: "/logo512.png",
+			linkText: "View Project",
+			link: "https://vendpal-rho.vercel.app/",
+		},
+		{
 			title: "MovieBox",
 			description:
 				"This website offers a comprehensive platform for users to explore in-depth information about movies, including cast, release dates, and reviews, making it a one-stop destination for all things cinema.",
